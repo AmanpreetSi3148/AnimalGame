@@ -1,0 +1,41 @@
+body {
+  background-color: #fce4ec;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 50px;
+  color: #4a148c;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+button {
+  background-color: #ff80ab;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 15px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #f06292;
+}
+
+#animal-display {
+  margin-top: 30px;
+}
+
+#animal-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+#animal-name {
+  font-size: 2rem;
+}
